@@ -1,18 +1,28 @@
-public class SharedBirthday {
+/**
+ * Filename: SharedBirthday.java
+ * Description:
+ * Author:
+ * Date:
+ */
+
+ public class SharedBirthday {
 
     public static void main(String[] args) {
         try {
             if (args.length != 3) {
                 throw new IllegalArgumentException("Exactly three arguments required");
             }
-            int people = Integer.parseInt(args[0]);
-            int days = Integer.parseInt(args[1]);
-            int trials = Integer.parseInt(args[2]);
-            System.out.println(probabilityEstimate(people, days, trials));
+            //
+            // TODO: Parse the command line argument and call your estimate function
+            //
         } catch (NumberFormatException e) {
-            System.err.println("Arguments must all be integers");
+            //
+            // TODO: Take care of a possible non-integer argument.
+            //
         } catch (IllegalArgumentException e) {
-            System.err.println(e.getMessage());
+            //
+            // TODO: Take care of the exception you threw above.
+            //
         }
     }
 

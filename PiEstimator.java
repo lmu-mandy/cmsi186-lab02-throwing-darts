@@ -1,4 +1,11 @@
-public class PiEstimator {
+/**
+ * Filename: PiEstimator.java
+ * Description:
+ * Author:
+ * Date:
+ */
+
+ public class PiEstimator {
 
     public static void main(String[] args) {
         try {
